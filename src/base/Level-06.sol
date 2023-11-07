@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.6.0;
 
-import {Ownable} from "openzeppelin-contracts-08/access/Ownable.sol";
+import {Ownable} from "openzeppelin-contracts-06/access/Ownable.sol";
 
 abstract contract Level is Ownable {
     function createInstance(address _player) public payable virtual returns (address);
