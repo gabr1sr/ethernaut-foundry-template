@@ -8,7 +8,7 @@ abstract contract EthernautTest is Test {
     Ethernaut public ethernaut;
     address public levelAddress;
 
-    function setUp() public {
+    function setUp() public virtual {
         ethernaut = new Ethernaut();
     }
 }

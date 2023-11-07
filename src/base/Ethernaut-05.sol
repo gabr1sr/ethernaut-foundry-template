@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.5.0;
 
-import "./helpers/Ownable-05.sol";
+import "../helpers/Ownable-05.sol";
 import "./Level-05.sol";
 
 contract Ethernaut is Ownable {

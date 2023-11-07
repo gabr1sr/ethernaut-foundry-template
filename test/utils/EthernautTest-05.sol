@@ -2,6 +2,7 @@
 pragma solidity ^0.5.0;
 
 import "./DSTest-05.sol";
+import "../../src/base/Ethernaut-05.sol";
 
 contract EthernautTest is DSTest {
     Ethernaut public ethernaut;
